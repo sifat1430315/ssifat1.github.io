@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Qualification</title>
+	<link rel="stylesheet" type="text/css" href="Styleop.css">
+	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+        $('.sidebarBtn').click(function(){
+        	$('.sidebar').toggleClass('active');
+        	$('.sidebarBtn').toggleClass('toggle');
+
+        })
+		})
+	</script>
+</head>
+<body>
+	<header>
+		<img src="images/educationbg.jpg">
+
+
+		<div class="table1">
+			<table id="users-table" align="right">
+				<thead>
+					<tr>
+						<th>Title</th>
+						<th>Subject/Major</th>
+						<th>Institute</th>
+						<th>Pas. Year</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Bachalor of Science(BSc)</td>
+						<td>Computer Science & Engineering(CSE)</td>
+						<td>Independent University Bangladesh</td>
+						<td>2018</td>
+					</tr>
+					<tr>
+						<td>Higher Secondary Certificate(HSC)</td>
+						<td>Science</td>
+						<td>Bangladesh Ideal College</td>
+						<td>2013</td>
+					</tr>
+				</tbody>
+				
+			</table>
+
+		</div>
+		<div id="education">Education</div>
+		<div class ="sidebar">
+		<ul>
+			<li><a href="index.html">Home</a></li><br>
+			<li><a href="about.html">About Me</a></li><br>
+			<li><a href="education.html">Education</a></li><br>
+			<li><a href="skill.html">Skills</a></li><br>
+			<li><a href="interest.html">Interests</a></li><br>
+		</ul>
+		<button class="sidebarBtn">
+			<span></span>
+		</button>
+		
+	</div>
+	</header>
+
+</body>
+</html>

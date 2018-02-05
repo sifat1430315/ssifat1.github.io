@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Saidur's Resume</title>
+
+<meta charset="utf-8" name="viewport" content="width-device-width, initial-scale=1">
+
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+        $('.sidebarBtn').click(function(){
+        	$('.sidebar').toggleClass('active');
+        	$('.sidebarBtn').toggleClass('toggle');
+        })
+		})
+		$(function(){
+        	setTimeout(function(){
+        		$('.fly').removeClass('hidden')
+        	}, 500);	
+        	});
+	</script>
+</head>
+<body>
+<header>
+
+	<img src="images/wood.jpg">
+	<div id="container"><img src="images/sif.jpg"></div>
+	<div id="box"><b>Md. Saidur Rahman Bhuyan</b></div>
+	
+
+
+	<div class ="sidebar">
+		<ul>
+			<li><a href="index.html">Home</a></li><br>
+			<li><a href="about.html">About Me</a></li><br>
+			<li><a href="education.html">Education</a></li><br>
+			<li><a href="skill.html">Skills</a></li><br>
+			<li><a href="interest.html">Interests</a></li><br>
+		</ul>
+		<button class="sidebarBtn">
+			<span></span>
+		</button>
+		
+	</div>
+
+	<div class="icon">
+	<ul>
+		<li><a href="https://www.facebook.com/ssifat1" class="facebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+		<li><a href="https://plus.google.com/105711956917084591366" class="google" title="Google-Plus"><i class="fa fa-google-plus"></i></a></li>
+		<li><a href="https://www.instagram.com/s.r_sifat" class="instagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+		<li><a href="https://github.com/sifat1430315" class="github" title="Github"><i class="fa fa-github"></i></a></li>
+
+	</ul>
+	</div>
+
+	<div class="contact">
+	<ul>
+		<li><a href="#" class="mobile" title="Mobile"><i class="fa fa-mobile"></i></a><h3 style="color: lightsalmon;">+8801676181205</h3></li>
+		<li><a href="#" class="location" title="Location"><i class="fa fa-thumb-tack"></i></a><h3 style="color:#f4d03f;">128/B, Khilgaon Chowdhurypara (matir moshjid), Dhaka 1219</h3></li>
+
+
+	</ul>
+	</div>
+
+	<ul class="fly hidden">
+		<li>S</li>
+		<li>t</li>
+		<li>u</li>
+		<li>d</li>
+		<li>e</li>
+		<li>n</li>
+		<li>t</li><br>
+		<li>W</li>
+		<li>e</li>
+		<li>b</li>
+		<li>-</li>
+		<li>D</li>
+		<li>e</li>
+		<li>s</li>
+		<li>i</li>
+		<li>g</li>
+		<li>n</li>
+		<li>e</li>
+		<li>r</li>		
+	</ul>
+
+	
+</header>
+
+</body>
+</html><!-- your HTML goes here -->

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skills</title>
+	<link rel="stylesheet" type="text/css" href="Styleop.css">
+	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+        $('.sidebarBtn').click(function(){
+        	$('.sidebar').toggleClass('active');
+        	$('.sidebarBtn').toggleClass('toggle');
+
+        })
+		})
+	</script>
+</head>
+<body>
+<header>
+	<img src="images/skillbg.jpg">
+	<div id="skillbar">Skills</div>
+	<div id="skills">
+		<ul>
+			<li>Capable of working under stress</li>
+			<li>Skilled in time management</li>
+			<li>Capable of motivating employees</li>
+			<li>Proficient in speaking Bengali and English</li>
+			<li>Capable of successful oral communication</li>
+			<li>Excellent in public speaking skills</li>
+			<li>Efficient in inter-cultural communication</li>
+		</ul>
+	</div>
+	<div id="pcskills">
+		<ul>
+			<li>Proficient in most PC</li>
+			<li>Microsoft Excel</li>
+			<li>Microsoft Office</li>
+			<li>Microsoft  Powerpoint</li>
+			<li>Java, C++ language</li>
+		</ul>
+	</div>
+		<div class ="sidebar">
+		<ul>
+			<li><a href="index.html">Home</a></li><br>
+			<li><a href="about.html">About Me</a></li><br>
+			<li><a href="education.html">Education</a></li><br>
+			<li><a href="skill.html">Skills</a></li><br>
+			<li><a href="interest.html">Interests</a></li><br>
+		</ul>
+		<button class="sidebarBtn">
+			<span></span>
+		</button>
+		
+	</div>
+</header>
+</body>
+</html>
